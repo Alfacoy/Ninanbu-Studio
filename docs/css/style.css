@@ -7816,3 +7816,14 @@ label.panel-block {
 .align {
   -ms-flex-line-pack: center;
   align-content: center; }
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }

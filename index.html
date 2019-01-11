@@ -27,14 +27,15 @@
 
                     <!--Menu externo-->
                     <a class="navbar-item" href="./index.html">Inicio</a>
-                    <a class="navbar-item" href="./index.html">Blog</a>
+                    <a class="navbar-item" href="./docs/blog.html">Blog</a>
+                    <a class="navbar-item" href="./docs/media.html">Media</a>
 
                     <!--Menu Interno-->
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link">Mas Informacion</a>
                         <div class="navbar-dropdown">
-                            <a class="navbar-item">Acerca de..</a>
-                            <a class="navbar-item" href="https://discordapp.com/invite/4UBRP5M" target="_blank">Discord</a>
+                            <a class="navbar-item" href="./docs/about.html">Acerca de</a>
+                            <a class="navbar-item" href="./docs/contacto.html">Contacto</a>
                         </div>
                     </div>
 
@@ -66,7 +67,7 @@
                         <p class="is-size-4">
                             <strong>Ninanbu</strong> nace en Buenos Aires (Argentina) a principios de 2018 con el fin de promover el mundo de los videojuegos, para luego convertirse en un estudio de <strong>desarrollo indie</strong> joven <i class="fas fa-gamepad"></i>.
                         </p>
-                        <a class="button is-medium is-primary is-rounded mar-v-50" href="">Conocenos!</a>
+                        <a class="button is-medium is-primary is-rounded mar-v-50" href="./docs/about.html">Conocenos!</a>
                     </article>
                     <article class="column"></article>
                 </div>
@@ -77,24 +78,24 @@
         <!--Seccion Ultimos Blogs-->
         <section class="section">
             <div class="container">
-                <h3 class="title is-uppercase has-text-centered">Ultimos <a href="">Blogs</a></h3>  
+                <h3 class="title is-uppercase has-text-centered">Ultimos <a href="./docs/blog.html">Blogs</a></h3>  
 
                 <article class="columns">
                     <!--Entrada Blog Nº1-->
                     <div class="column">
                         <figure class="image">
-                            <figure class="image">
-                                <a href="">
-                                    <img src="./docs/img/test.jpg" alt="Placeholder image">
-                                </a>
-                            </figure>  
-                        </figure>                        
+                            <a href="">
+                                <!--Imagen a 1280x960-->
+                                <img src="./docs/img/test.jpg" alt="Placeholder image">
+                            </a>
+                        </figure>                      
                     </div>
 
                     <!--Entrada Blog Nº2-->
                     <div class="column">
                         <figure class="image">
                             <a href="">
+                                <!--Imagen a 1280x960-->
                                 <img src="./docs/img/test.jpg" alt="Placeholder image">
                             </a>
                         </figure>                         
@@ -104,6 +105,7 @@
                     <div class="column">
                         <figure class="image">
                             <a href="">
+                                <!--Imagen a 1280x960-->
                                 <img src="./docs/img/test.jpg" alt="Placeholder image">
                             </a>
                         </figure>                        
@@ -116,134 +118,43 @@
         <!--Seccion Juego en desarrollo-->
         <section class="section">
             <div class="container">
-                <h3 class="title has-text-left">En desarrollo</h3>
+                <h3 class="title has-text-left is-uppercase">Juego en desarrollo</h3>
+                <h4 class="subtitle has-text-left is-uppercase">Descarga la ultima version actualizada</h4>
 
-                <div class="tile is-ancestor">
-                        <div class="tile is-parent">
-                          <article class="tile is-child box">
-                            <p class="title">One</p>
-                            <p class="subtitle">Subtitle</p>
-                          </article>
-                        </div>
-                        <div class="tile is-parent">
-                          <article class="tile is-child box">
-                            <p class="title">Two</p>
-                            <p class="subtitle">Subtitle</p>
-                          </article>
-                        </div>
-                        <div class="tile is-parent">
-                          <article class="tile is-child box">
-                            <p class="title">Three</p>
-                            <p class="subtitle">Subtitle</p>
-                          </article>
-                        </div>
-                        <div class="tile is-parent">
-                          <article class="tile is-child box">
-                            <p class="title">Four</p>
-                            <p class="subtitle">Subtitle</p>
-                          </article>
-                        </div>
-                      </div>
-                      
-                      <div class="tile is-ancestor">
-                        <div class="tile is-vertical is-9">
-                          <div class="tile">
-                            <div class="tile is-parent">
-                              <article class="tile is-child box">
-                                <p class="title">Five</p>
-                                <p class="subtitle">Subtitle</p>
-                                <div class="content">
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
-                                </div>
-                              </article>
-                            </div>
-                            <div class="tile is-8 is-vertical">
-                              <div class="tile">
-                                <div class="tile is-parent">
-                                  <article class="tile is-child box">
-                                    <p class="title">Six</p>
-                                    <p class="subtitle">Subtitle</p>
-                                  </article>
-                                </div>
-                                <div class="tile is-parent">
-                                  <article class="tile is-child box">
-                                    <p class="title">Seven</p>
-                                    <p class="subtitle">Subtitle</p>
-                                  </article>
-                                </div>
-                              </div>
-                              <div class="tile is-parent">
-                                <article class="tile is-child box">
-                                  <p class="title">Eight</p>
-                                  <p class="subtitle">Subtitle</p>
-                                </article>
-                              </div>
-                            </div>
+                <div class="tile is-ancestor"> 
+                  <div class="tile is-6 is-vertical is-parent">
+                      <!--Sinopsis-->
+                      <article class="tile is-child message is-info">
+                          <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
                           </div>
-                          <div class="tile">
-                            <div class="tile is-8 is-parent">
-                              <article class="tile is-child box">
-                                <p class="title">Nine</p>
-                                <p class="subtitle">Subtitle</p>
-                                <div class="content">
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                                </div>
-                              </article>
-                            </div>
-                            <div class="tile is-parent">
-                              <article class="tile is-child box">
-                                <p class="title">Ten</p>
-                                <p class="subtitle">Subtitle</p>
-                                <div class="content">
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                                </div>
-                              </article>
-                            </div>
-                          </div>
+                        </article>
+                      <!--Descarga-->
+                      <article class="tile is-child box">
+                        <h3 class="title">Descarga <span class="tag is-warning">DEMO</span></h3>
+                        <div class="buttons are-large">
+                          <a href="" class="button is-success is-outlined"><b>Windows <span class="icon"><i class="fas fa-download"></i></span></b></a>
+                          <a href="" class="button is-success is-outlined"><b>Mac <span class="icon"><i class="fas fa-download"></i></span></b></a>
+                          <a href="" class="button is-success is-outlined"><b>Linux <span class="icon"><i class="fas fa-download"></i></span> </b></a>
                         </div>
-                        <div class="tile is-parent">
-                          <article class="tile is-child box">
-                            <div class="content">
-                              <p class="title">Eleven</p>
-                              <p class="subtitle">Subtitle</p>
-                              <div class="content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
-                                <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
-                              </div>
-                            </div>
-                          </article>
-                        </div>
-                      </div>
-                      
-                      <div class="tile is-ancestor">
-                        <div class="tile is-parent">
-                          <article class="tile is-child box">
-                            <p class="title">Twelve</p>
-                            <p class="subtitle">Subtitle</p>
-                            <div class="content">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</p>
-                            </div>
-                          </article>
-                        </div>
-                        <div class="tile is-parent is-6">
-                          <article class="tile is-child box">
-                            <p class="title">Thirteen</p>
-                            <p class="subtitle">Subtitle</p>
-                            <div class="content">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                            </div>
-                          </article>
-                        </div>
-                        <div class="tile is-parent">
-                          <article class="tile is-child box">
-                            <p class="title">Fourteen</p>
-                            <p class="subtitle">Subtitle</p>
-                            <div class="content">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</p>
-                            </div>
-                          </article>
-                        </div>
-                      </div>
+                        <!--Ultima version-->
+                        <div class="box">
+                          <strong><p class="has-text-danger">Ultima version: <a href="">0.3</a> Fecha: (18/01/19)</p></strong>
+                          <p class="content"></p>
+                          <p class="has-text-info"><span class="is-uppercase"><b>Nota:</b></span> Si tienes un inconveniente con la <b>descarga</b> o durante el juego recuerda consultar al <b>soporte</b> mediante nuestro <strong><a href="https://discordapp.com/invite/4UBRP5M" target="_blank">Discord</a></strong>.</p>  
+                        </div>                      
+                    </article>
+                  </div>
+                  <!--Imagen del juego-->
+                  <div class="tile is-parent">
+                    <figure class="image">
+                      <!--Imagen a 640x480-->
+                      <img src="./docs/img/test1.jpg">
+                    </figure>
+                  </div>
+                </div>
+                
+                <hr>
             </div>
         </section>
         
@@ -251,12 +162,17 @@
         <footer class="footer">
             <div class="container">
                 <div class="columns">
+
                     <div class="column">
                         <h4 class="subtitle has-text-info">Mapa del Sitio <i class="fas fa-map"></i></h4>
                         <ul>
-                            <li><a href="">Inicio</a></li>
-                            <li><a href="">Blog</a></li>
-                            <li><a href="">About</a></li>
+                          <li><b>Menu</b></li>
+                          <li><a href="./index.html">Inicio</a></li>
+                          <li><a href="./docs/blog.html">Blog</a></li>
+                          <li><a href="./docs/media.html">Media</a></li>
+                          <li><b>Mas Informacion</b></li>
+                          <li><a href="./docs/about.html">Acerca de</a></li>
+                          <li><a href="./docs/contacto.html">Contacto</a></li>
                         </ul>
                     </div>
 
@@ -273,8 +189,8 @@
                 </div>
 
                 
-                <p class="has-text-centered"><i class="far fa-copyright"></i> 2018 Copyright <a href="https://github.com/Alfacoy/Ninanbu" target="_blank">Alfacoy</a>. La web se encuentra bajo una licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank">Creative Commons</a>.</p>
-                <p class="has-text-centered">Code made with <i class="fas fa-heart"></i> Alfacoy</p>
+                <p class="has-text-centered"><i class="far fa-copyright"></i> 2019 Copyright <a href="https://github.com/Alfacoy/Ninanbu" target="_blank">Alfacoy</a> <i class="fab fa-github"></i>. La web se encuentra bajo una licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank">Creative Commons</a>.</p>
+                <p class="has-text-centered">Code made with <i class="fas fa-heart"></i> by Alfacoy</p>
                 
             </div>
         </footer>
