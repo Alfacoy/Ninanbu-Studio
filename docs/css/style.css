@@ -7813,17 +7813,9 @@ label.panel-block {
 .mar-v-50 {
   margin: 50px 0; }
 
-.align {
-  -ms-flex-line-pack: center;
-  align-content: center; }
+.imagen-250x250 {
+  width: 250px;
+  height: 250px; }
 
-.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
-.flex-row {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row; }
+.redondeado {
+  border-radius: 15px; }
