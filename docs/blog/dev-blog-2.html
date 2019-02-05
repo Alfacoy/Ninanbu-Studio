@@ -7,6 +7,18 @@
     <link rel="shortcut icon" type="image/png" href="../img/ico/iconoweb.ico"/>
     <link rel="stylesheet" href="../css/style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+    <!--Plugin Facebook-->
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.2';
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
     
   </head>
   <body>
@@ -58,11 +70,107 @@
         <!--Contenido del blog-->
         <section class="section">
             <div class="container">
-                <h3 class="title">Section</h3>
+                <article class="content">
 
+                    <h3 class="title is-uppercase has-text-info has-text-centered">Devblog #2 : Mi primer proyecto de videojuego</h3>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates accusamus, laudantium, deserunt corporis aliquid pariatur numquam reiciendis mollitia sapiente, asperiores eligendi deleniti culpa blanditiis quia officiis distinctio quas quibusdam unde.</p>
-            
+                    <br>
+
+                    <div class="columns">
+                        <div class="column is-three-fifths is-offset-one-fifth">
+                            
+                            <p>
+                                Saludos viajeros!
+                            </p>
+
+                            <p>
+                                Hoy toca hablar de un tema realmente importante para toda aquella persona que se propone a desarrollar videojuegos,
+                                - redoble de tambores  - , y es justamente el de <u>realizar el primer título</u>.
+                            </p>
+
+                            <p>
+                                Al principio es normal el querer armar el juego ideal, donde, para mi gusto, pueda crear una ciudad medieval desde 
+                                cero, luchar contra monstruos y tener que gestionar la economía del lugar. Pero es cuestión de tiempo el darnos cuenta 
+                                de que nuestra habilidad es mucho menor de lo que proyectamos, al menos, en mi caso jaja. 
+                            </p>
+
+                            <br>
+
+                            <h4 class="is-uppercase">¿Experiencia en algo? ¿Nada?</h4>
+
+                            <p>
+                                Es por eso que tuve que sentarme y evaluar mis habilidades. Sé lo básico de programación web ( Javascript ), 
+                                algo de HTML y CSS, pero después, sé que me gusta jugar videojuegos. No hace falta mucho para darse cuenta que soy un novato
+                                en el área, pero por algo hay que empezar. Necesitaba un primer proyecto que se amolde a mis conocimientos y así fue que 
+                                comencé a desarrollar “ <strong>Bad Harvest</strong> ”. 
+                            </p>
+
+                            <br>
+                            
+                            <h4 class="is-uppercase">Un poco del proyecto</h4>
+
+                            <p>
+                                Aunque esté pintado de otra forma, Bad Harvest plantea ser un juego similar a la famosa “Papa”, cuyo fin era el de ir del 
+                                punto A al B sin tocar la línea que dejábamos a nuestro paso. Solo que ahora, no hay que tocar dichos puntos. 
+                            </p>  
+
+                            <p>
+                                De momento es un juego que no plantea tener un fin, solo el simple hecho de eliminar hongos tóxicos y evitar a toda 
+                                costa golpear las esporas, ya que estas incrementan el crecimiento de los hongos, que al ser tóxicos provocarán la
+                                muerte de nuestro personaje si hay demasiados en el área.
+                            </p>
+
+                            <figure class="image is-3by2">
+                                <img src="../img/blog/bad-harvest-beta.jpg" alt="Tratando de no morir intoxicado">
+                            </figure>
+
+                            <p>
+                                Vamos a tener a nuestra disposición un contador de puntos, por cada hongo eliminado es un dígito ganado a nuestra causa! 
+                                Pero cuidado, ya que habrá  tentaciones por el camino que darán mayores recompensas pero te harán retrasar de tu verdadero 
+                                objetivo. 
+                            </p>
+
+                            <p>
+                                Bad Harvest tiene una historia de trasfondo, pero la misma va a ser relatada más adelante, cuando esté mejor desarrollada. 
+                                Aún falta mucho por escribir y dibujar, aunque jaja primero falta aprender a dibujar un poco más.
+                            </p>
+
+                            <br>
+
+                            <h4 class="is-uppercase">Un pequeño consejo</h4>
+
+                            <p>
+                                Se que aún no soy una persona muy conocida y tengo muy poca experiencia, pero, si algo le puedo decir a alguien que 
+                                recién comienza como yo, es que trate de reinventar algún juego famoso básico para su primer proyecto y sobre todo, 
+                                que <b>no lo abandone</b>. No es tan fácil como parece y requiere tiempo, el cual no siempre disponemos.
+                            </p>
+
+                            <p>
+                                De momento no tengo nada más para contar! El juego aún está verde. Espero les haya gustado mis primeras experiencias 
+                                al enfrentarme a un proyecto. Muchas gracias por leer!
+                            </p>
+
+                            
+                            <br>
+                            <br>
+
+                            <b>
+                                Posteado por Alfacoy. 04 Febrero, 2019.
+                            </b>
+
+                            <br>
+                            <br>
+
+                            <div>
+                                <hr>
+                                <span><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-via="ninanbu" data-lang="es" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></span> 
+                                <span><a href="https://twitter.com/intent/tweet?screen_name=ninanbu&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-size="large" data-via="ninanbu" data-lang="es" data-show-count="false">Tweet to @ninanbu</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></span>
+                                <div class="fb-comments" data-href="https://www.ninanbu.com/docs/blog/dev-blog-2.html" data-numposts="5"></div>
+                            </div>
+                        </div>
+                    </div>
+     
+                </article>
             </div>
         </section>
 
