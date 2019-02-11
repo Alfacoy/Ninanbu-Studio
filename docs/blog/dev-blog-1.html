@@ -7,20 +7,6 @@
     <link rel="shortcut icon" type="image/png" href="../img/ico/iconoweb.ico"/>
     <link rel="stylesheet" href="../css/style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-
-    <!--Plugin Facebook-->
-    <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.2&appId=2487930114551027&autoLogAppEvents=1';
-        fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-    <meta property="fb:app_id" content="2487930114551027" />
-
   </head>
   <body>
         <!--Menu de Navegacion-->
@@ -148,10 +134,20 @@
                             <br>
 
                             <div>
-                                <hr>
-                                <span><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-via="ninanbu" data-lang="es" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></span> 
-                                <span><a href="https://twitter.com/intent/tweet?screen_name=ninanbu&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-size="large" data-via="ninanbu" data-lang="es" data-show-count="false">Tweet to @ninanbu</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></span>
-                                <div class="fb-comments" data-href="https://www.ninanbu.com/docs/blog/dev-blog-1.html" data-numposts="5"></div>
+                                <hr>                                            
+                                <div id="disqus_thread"></div>
+                                <script>
+                                    var disqus_config = function () {
+                                    this.page.url = 'https://www.ninanbu.com/docs/blog/dev-blog-1.html';
+                                    };
+                                    (function() {
+                                    var d = document, s = d.createElement('script');
+                                    s.src = 'https://ninanbu.disqus.com/embed.js';
+                                    s.setAttribute('data-timestamp', +new Date());
+                                    (d.head || d.body).appendChild(s);
+                                    })();
+                                </script>
+                                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                             </div>
 
                         </div>
