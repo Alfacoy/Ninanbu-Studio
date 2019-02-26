@@ -8,7 +8,7 @@ En este momento se encuentra desarrollando su primer título nombrado: **Bad Har
 
 ## Redes sociales :family:
 
-*[Twitter](https://twitter.com/ninanbu)
-*[Discord](https://discord.gg/6fPSfFg)
+* [Twitter](https://twitter.com/ninanbu)
+* [Discord](https://discord.gg/6fPSfFg)
 
 
