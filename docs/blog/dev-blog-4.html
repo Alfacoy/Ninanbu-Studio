@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--SEO-->
+    <title>Game Design Document | Ninanbu Studio</title>
+    <meta name="description" content="El documento de diseño de nuestro juego es sumamente importante! Es por eso que realize una pequeña guía."/>
+    <meta name="robots" content="noindex, follow">
+    <!--Enlaces Internos-Externos-->
+    <link rel="shortcut icon" type="image/png" href="../img/ico/iconoweb.ico"/>
+    <link rel="stylesheet" href="../css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135069482-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-135069482-1');
+    </script>
+
+  </head>
+  <body>
+        <!--Menu de Navegacion-->
+        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="../../index.html">
+                    <img src="../img/logos/ninanbu-texto.png" width="112" height="28" alt="logotipo ninanbu">
+                </a>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
+                  
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+
+                    <!--Menu externo-->
+                    <a class="navbar-item" href="../../index.html">Inicio</a>
+                    <a class="navbar-item" href="../blog.html">Blog</a>
+                    <a class="navbar-item" href="../media.html">Media</a>
+                    <a class="navbar-item" href="../about.html">Acerca de</a>
+                    
+                    <!--Menu Interno-->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Proyectos</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="https://ninanbu.itch.io/bad-harvest" target="_blank">Bad Harvest</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+        <!--Header-->
+        <header>
+            <section class="hero is-medium is-dark is-bold">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title is-uppercase has-text-centered">Game Design Document</h1>
+                    </div>
+                </div>
+            </section>
+        </header>
+                
+        <!--Contenido del blog-->
+        <section class="section">
+            <div class="container">
+
+                <article class="content">
+                    <h3 class="title is-uppercase has-text-info has-text-centered">DEVBLOG #4: Guia para armar un GDD</h3>
+                    
+                    <br>
+
+                    <div class="columns">
+
+                        <div class="column is-three-fifths is-offset-one-fifth">
+                            <p>
+                                Muy buenas gente!
+                            </p>
+                            <p>
+                                Vamos a repasar algo de vital importancia para la creación de un videojuego el cual hasta hace poco yo 
+                                ignoraba. No por desprecio sino por desconocimiento de su existencia.
+                            </p>
+                            <p>
+                                Sepan que yo no estoy instruido en ninguna escuela del Game Design, soy un estudiante autodidacta en pleno 
+                                despegue, por lo cual no cuento con herramientas ni conocimientos técnicos con los que respaldar mis juegos o 
+                                textos. Puede que no todo lo que diga vaya a estar bien, sino que es lo que sé o creo en el momento. Disculpen 
+                                si erro en algo, aún estoy aprendiendo jaja.    
+                            </p>
+                            
+                            <hr>
+
+                            <h4 class="is-uppercase">¿Que es un GDD?</h4>
+
+                            <p>
+                                El “Documento de Diseño  de Juego” o “Game Design Document” (GDD) es un documento de texto en el cual se plasman
+                                todas las ideas que conforman al juego, tales como su historia si la tiene, el o los protagonistas, que mecanicas
+                                utilizará, como será su menú, etc. Para ser más exactos, es el esqueleto de nuestro juego. 
+                            </p>
+                            <p>
+                                Me acuerdo que al principio, cuando empecé a armar Bad Harvest, iba inventando y viendo en el momento donde me 
+                                quedaba más cómodo los elementos del HUD, como me gustaría el menú, modificando una mecánica que no me terminó de
+                                convencer y podria seguir asi un buen rato pero no es la idea.
+                            </p>
+                            <p>
+                                A lo que apunto es que realmente es necesario el tener organizado nuestro videojuego mucho antes de comenzar a 
+                                desarrollarlo. Ya que si vamos inventando en el camino es muy probable que en unos días termines re haciendo líneas 
+                                de código debido a que algo no te termino por convencer.
+                            </p>
+                            <p>
+                                Me gustaría que revisarán estos dos documentos que les comparto, en los cuales van a ver muy claramente cómo hay que 
+                                realizar un GDD.
+                            </p>
+                            <p>
+                                <a href="https://drive.google.com/file/d/19JZjBYIDCsFtZYOQ3vybjA3ydVdDO2i_/view" target="_blank">Super Mario Bros (Inglés)</a> 
+                            </p>
+                            <p>
+                                <a href="https://eldocumentalistaudiovisual.files.wordpress.com/2015/02/gdd.pdf" target="_blank">Sion Tower (Español)</a>
+                            </p>
+
+                            <p>
+                                Ambos documentos me fueron de gran ayuda para orientarme  con el mio, es por eso que si les interesa le den una ojeada.
+                                Super recomendado.
+                            </p>
+                            
+                            <h4 class="is-uppercase">Referencias de mi documento</h4>
+
+                            <p>
+                                Para armar mi documento de diseño me bastaron los ítems que ven en esta imagen.
+                            </p>
+                            
+                            <img src="../img/blog/gdd-indice.JPG" alt="Indice de mi Documento de diseño" width="800" height="457">
+                           
+                            <br>
+                           
+                            <p>
+                                <b><u>Concepto del Juego</u></b>
+                            </p>
+
+                            <p>
+                                <b>Introducción:</b> En este caso redacte en pocos renglones de que trata el juego, como si tuviera que describirlo a una 
+                                persona en lo que dure el viaje en un ascensor.
+                            </p>
+
+                            <p>
+                                <b>Género:</b> ¿Va a ser Arcade, Aventura o Acción? . No más que eso.
+                            </p>
+
+                            <p>
+                                <b>Plataforma:</b> ¿Vamos a desarrollar para escritorio o consolas? ¿Que sistema operativo? ¿Cúal consola?
+                            </p>
+
+                            <p>
+                                <b>Público Objetivo:</b> Este lo considero un tanto importante, ya que dependiendo nuestro público va a variar nuestro
+                                contenido. Colores más llamativos, obscuros, interfaces, etc. Todo varia segun a quien le apuntemos.
+                            </p>
+
+                            <p>
+                                <b>Historia:</b> simplemente el trasfondo de nuestro juego.
+                            </p>
+
+                            <br>
+                            
+                            <p>
+                                <b><u>Mecánicas del Juego</u></b>
+                            </p>
+
+                            <p>
+                                <b>Jugabilidad:</b> según nuestra querida <a href="https://es.wikipedia.org/wiki/Jugabilidad" target="_blank">Wikipedia jugabilidad</a> 
+                                “...es la calidad del juego en términos de sus reglas de funcionamiento y de su diseño como juego. Se refiere a todas las experiencias 
+                                de un jugador durante la interacción con sistemas de juegos.“
+                            </p>
+
+                            <p>
+                                En mi caso coloque como el jugador podrá interaccionar con el menú, la progresión dentro del juego, la interacción con los objetos y 
+                                el cómo influye la puntuación. 
+                            </p>
+
+                            <p>
+                                <b>Flujo de juego:</b> en este aspecto trate de hacer un resumen breve de cómo es una partida en Bad Harvest. El problema de este es que,
+                                en mi caso, agregue varias mecánicas nuevas por lo que ahora debo re-escribirlo jaja y agradezco sea en el GDD. Me gustaría agregar que no
+                                es necesario resumir, siempre que podamos dar mayor detalle va a ser mejor para el que luego lo lea y comprenda bien en que está trabajando.
+                            </p>
+
+                            <p>
+                                <b>Mecánicas básicas:</b> simplemente las acciones que el jugador puede hacer dentro del juego, como correr, saltar, o hacer una triple mortal
+                                en el aire mientras arroja fuego de sus manos. Es el momento de describir todas esas cosas.
+                            </p>
+                            
+                            <p>
+                                <b>Enemigos:</b> ¿Un dragón? ¿Un simple slime?, describirlo tal cual quieres que sea, con todas sus características.
+                            </p>
+                            
+                            <p>
+                                <b>Objetos:</b> ¿Qué objetos tendrá tu juego?, desde pociones hasta cosas totalmente fuera de lo común. Lo ideal sería que los describas en este lugar.
+                            </p>
+
+                            <p>
+                                <b>Puntuaciones:</b>  En mi caso, al ser un juego 100% destinado a competir por puntos, me veo obligado a detallar la cantidad de puntos que deja cada
+                                objeto, tanto agarrandolo de manera normal o formando un combo. Mientras más detallado este el sistema de puntuación y el cómo funciona, mejor.
+                            </p>
+
+                            <p>
+                                <b>Controles:</b> agarren su ya desgastado Joystick y saquenle su mejor foto. Luego editen en Photoshop que hará cada botón y terminado! Así de simple :D 
+                            </p>
+
+                            <br>
+
+                            <p>
+                                <b><u>Personaje principal y Antagonista</u></b>
+                            </p>
+
+                            <p>
+                                En esta sección trate de meterme más a fondo en detalles de cada personaje, como su apariencia, gustos, colores principales, su historia y en
+                                cómo afecta esta en sus vidas.
+                            </p>
+
+                            <p>
+                                Por ejemplo: a Juan le quitaban sus dulces de chico en el colegio y luego lo golpeaban sus compañeros, llegando al punto de lastimarle un ojo. 
+                                Ahora Juan ya adulto desarrolló un odio intenso hacia los niños, les roba sus dulces y para colmo tiene un ojo rasgado.
+                            </p>
+
+                            <p>
+                                Traten de hacer bocetos, dibujos de cada aspecto de ellos. Mucha experiencia no tengo, pero creo que para armar un buen personaje este tiene 
+                                que tener una historia de trasfondo que lo respalde.
+                            </p>
+
+                            <br>
+
+                            <p>
+                                <b><u>Interfaces</u></b>
+                            </p>
+
+                            <p>
+                                Por último y para ir terminando, las interfaces! Algo sumamente importante y que mínimo tiene que planificar antes de armarlo.
+                            </p>
+
+                            <p>
+                                Aunque a algunos no nos guste y entre ellos me incluyo a mi.  Debemos tomar Photoshop y comenzar a maquetar el cómo queremos que se vea nuestro juego.
+                            </p>
+
+                            <img src="../img/blog/gdd-menu.jpg" alt="Boceto de menu Bad Harvest" width="800" height="457">
+                            
+                            <p>
+                                Como esta imagen quedó en desuso ya que modifique el menú( y vuelvo a repetirlo, menos mal cambié de idea en el documento y no en el Game Maker),
+                                se las comparto a modo de referencia. En ella pueden ver como defino la posición de cada botón para luego volcarlo en el juego. Realmente referencias 
+                                de este tipo ayudan demasiado. Se las recomiendo :)
+                            </p>
+                            
+                            <br>
+
+                            <h4 class="is-uppercase">Resumen</h4>
+
+                            <p>
+                                Como estuvieron leyendo, el GDD es básicamente todo elemento que compone nuestro juego. Tampoco hay un único modelo de documento, lo que le 
+                                sirve a uno no tiene porque servir a otro, quizás en sus juegos no ocupen las puntuaciones pero si habilidades. Cada uno amoldara su documento a su juego. 
+                            </p>
+
+                            <p>
+                                Algo a tener en cuenta y que no lo dije antes es que cada cambio que vayan a hacer en el juego tiene que verse reflejado en el documento primero. Esto no 
+                                es algo que se escribe una vez y esta terminado, va a pasar varias revisiones hasta llegar a la versión final.
+                            </p>
+
+                            <p>
+                                Me gustaría dejarles una última observación y es que traten de hacer bocetos de todo, ya sea de los objetos, enemigos, personajes, escenarios, 
+                                todo.  Les va a ayudar a ustedes y en caso de tenerlo, a su equipo de trabajo a tener una mejor noción en lo que están trabajando. Les dejo este 
+                                enlace referido a <a href="https://www.centropixels.com/que-es-concept-art/" target="_blank">¿Qué es Concept Art?</a> que de seguro les va a interesar.
+                                (No hace falta saber dibujar). 
+                            </p>
+
+                            <p>
+                                Espero les haya sido de utilidad esta mini guía para documentar nuestro videojuego. Recuerden visitar los enlaces que les deje, ami me sirvieron para 
+                                orientarme. Si creen que me equivoque o les gustaría agregar algo pueden hacerlo en los comentarios. 
+                            </p>
+
+                            <p>
+                                Nos vemos en la próxima! Muchas gracias por leer ~
+                            </p>
+
+                            <br>
+                            <br>
+
+                            <b>
+                                Posteado por Alfacoy. 07 Marzo, 2019.
+                            </b>
+
+                            <br>
+                            <br>
+
+                            <div>
+                                <hr>
+                                <div id="disqus_thread"></div>
+                                <script>
+                                    var disqus_config = function () {
+                                    this.page.url = 'https://www.ninanbu.com/docs/blog/dev-blog-3.html';
+                                    };
+                                    (function() {
+                                    var d = document, s = d.createElement('script');
+                                    s.src = 'https://ninanbu.disqus.com/embed.js';
+                                    s.setAttribute('data-timestamp', +new Date());
+                                    (d.head || d.body).appendChild(s);
+                                    })();
+                                </script>
+                                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--Anterior y Posterior-->
+        <section class="section">
+            <div class="container">
+                <table class=" table is-fullwidth ">
+                    <thead>
+                        <tr>
+                            <th class="has-text-left is-uppercase">Blog Anterior</th>
+                            <th class="has-text-right is-uppercase"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <!--Noticia Nº3-->
+                            <td class="has-text-left">
+                                <a href="./dev-blog-3.html">
+                                    <figure>
+                                        <img src="../img/blog/devblog-img-btn-3.jpg" alt="Imagen blog #3: Game Maker">
+                                    </figure>
+                                    <div class="content">
+                                        <p class="subtitle">Game Maker</p>
+                                    </div>
+                                </a>
+                            </td>
+
+                            <!--Noticia Nº2-->
+                            <td class="has-text-right">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="footer">
+                <div class="container">
+                    <div class="columns">
+    
+                        <div class="column">
+                            <h4 class="subtitle has-text-info">Mapa del Sitio <i class="fas fa-map"></i></h4>
+                            <ul>
+                              <li><a href="../../index.html">Inicio</a></li>
+                              <li><a href="../blog.html">Blog</a></li>
+                              <li><a href="../media.html">Media</a></li>
+                              <li><a href="../about.html">Acerca de</a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="column"></div>
+    
+                        <div class="column">
+                            <h4 class="subtitle has-text-info">Redes Sociales</h4>
+                            <span style="font-size: 48px;"><a href="https://twitter.com/ninanbu" target="_blank"><i class="fab fa-twitter-square"></i></i></a></span>
+                            <span style="font-size: 48px;"><a href="https://www.instagram.com/ninanbu/" target="_blank"><i class="fab fa-instagram"></i></a></span>
+                            <span style="font-size: 48px;"><a href="https://www.twitch.tv/ninanbu" target="_blank"><i class="fab fa-twitch"></i></a></span>
+                            <span style="font-size: 48px;"><a href="https://steamcommunity.com/groups/ninanbu" target="_blank"><i class="fab fa-steam-square"></i></i></a></span>
+                            <span style="font-size: 48px;"><a href="https://discord.gg/6fPSfFg" target="_blank"><i class="fab fa-discord"></i></a></span>
+                        </div>
+                    </div>
+    
+                    
+                    <p class="has-text-centered"><i class="far fa-copyright"></i> 2019 Copyright <a href="https://github.com/Alfacoy/Ninanbu-Studio" target="_blank">Alfacoy</a> <i class="fab fa-github"></i>. La web se encuentra bajo una licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank">Creative Commons</a>.</p>
+                    <p class="has-text-centered">Code made with <i class="fas fa-heart"></i> by Alfacoy</p>
+                    
+                </div>
+            </footer>
+    
+            <!--Scripts-->
+            <script src="../js/main.js"></script>
+      </body>
+    </html>
